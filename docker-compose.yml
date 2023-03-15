@@ -24,7 +24,7 @@ services:
     volumes:
       - .docker/dbdata:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=58fa74593f60fe9a3dcb29c85024508d5ed87690
+      - POSTGRES_PASSWORD=*(!PU8u123pidu2093id23i)
       - POSTGRES_DB=apiunifacef
 
   redis:
