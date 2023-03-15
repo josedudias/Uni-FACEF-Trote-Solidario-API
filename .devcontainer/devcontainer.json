@@ -1,0 +1,14 @@
+{
+	"name": "API Uni-FACEF",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"forwardPorts": [
+		3333
+	],
+	"shutdownAction": "none",
+	"postCreateCommand": "docker-compose up"
+}
